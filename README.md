@@ -8,7 +8,7 @@ A plugin for Nativescript framework implementing exit function for the applicati
 ##install
 npm install nativescript-exit --save
 
-##use
+##usage
 
 ```typescript
 import {exit} from 'nativescript-exit';

@@ -1,6 +1,6 @@
 {
   "name": "nativescript-exit",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A plugin for Nativescript framework implementing exit function for the application",
   "author": {
     "name": "Dmitry V. Abuzyarov",

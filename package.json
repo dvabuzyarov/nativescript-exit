@@ -1,0 +1,24 @@
+{
+  "name": "nativescript-exit",
+  "version": "0.0.0",
+  "description": "A plugin for Nativescript framework implementing exit function for the application",
+  "author": {
+    "name": "Dmitry V. Abuzyarov",
+    "email": "dvabuzyarov@gmail.com"
+  },
+  "main": "index",
+  "keywords": [
+    "nativescript",
+    "plugin",
+    "exit",
+    "typescript"
+  ],
+  "files": [
+    "index.android.js",
+    "index.ios.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^2.1.1"
+  }
+}

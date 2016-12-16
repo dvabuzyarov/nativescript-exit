@@ -11,6 +11,6 @@ npm install nativescript-exit --save
 ##use
 
 ```typescript
-import exit from 'nativescript-exit';
+import {exit} from 'nativescript-exit';
 exit();
 ```

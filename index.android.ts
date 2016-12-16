@@ -1,5 +1,5 @@
 declare const android:any;
 
-export default function (): void{
+export const exit: Function = ()=>{
     android.os.Process.killProcess(android.os.Process.myPid());
 }

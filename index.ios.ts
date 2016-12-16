@@ -1,5 +1,7 @@
 declare const exit: (code: number)=>void;
 
-export default function (): void{
+const _exit: Function = ()=>{
     exit(0);
-}
+};
+
+export {_exit as exit};

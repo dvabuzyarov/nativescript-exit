@@ -10,7 +10,7 @@ cache:
 git:
   depth: 1
 before_script:
-- npm i -g typescript
+- npm i -g typescript@2.2.1
 install:
 - npm install
 before_deploy:
@@ -22,4 +22,5 @@ deploy:
     secure: AfLoroOnsB02Po5WR4cEqN18uPwheWDWED3f5bzhNpal5FUcv3Gqh9WMd3jIo/vsETZhwRawYDvwMvwekmWi5D6gaJVq94LxN0rB7qwyCoeF5qzEnVkLW1H+OnFKwAY0ABbomhH7s/Cm8h8OWl5Pf+SMxM/eJSefu1iPU1ZqeP4Oa8ognSRYiLRB3vwpI7V2HhK25w0/HyUvhBd8N7HULjGxILOrIjPTtKjezj9P2mxqb/4W4IiM9lXGBQdnmE5ZZ7ZYGENmAEtqShokMQILPiafsNCKKIn42SF1jyRS7OBjar9+fSgMHa3G5bSl9VARYllyP18MRag9emLxS94svlQkpWW0IeN7ISZv0AfONSyxe8ry2YDQDaI7AU2l1q8tCNePk/Q/TgOk5XeyYYq/xHV39yd/Up7Rnec5gWntdyzprJqKFafP4EvtGMCTFQ4ZtRa7Ia9HE9n7vBQJw1ihBe3Jm46+2fLcspb2XmUOKGodOGT0LMxeJLyBvaAzOqQMRZLj5EfHjzzOmyEBX/iCer9RjeDIU5lHZPYxNyu4ddgT1SKoxIHtVRz9WfaREO34E81774c69Gu28UTiIBCV5mU7CrxShrtfeBOngwMj4FgUUGs8AM/fY7/xI/BxJusTLu6CBjF3Dh40bd5sS5vyfnTVOtBPQOM9GA7rO2oAwpA=
   on:
     tags: true
+    all_branches: true
     repo: dvabuzyarov/nativescript-exit
